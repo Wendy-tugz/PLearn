@@ -11,11 +11,11 @@
 # print(type(age))
 
 # multiple assignment
-# name = "Wendy"
-# age = 20
-# attractive = True
+name = "Wendy"
+age = 20
+attractive = True
 
-# name, age, attractive = "Wendy", 20, True
+name, age, attractive = "Wendy", 20, True
 #
 # print(name)
 # print(age)
@@ -26,9 +26,9 @@
 # Sandy = 30
 # Squidward = 30
 
-Spongebob = Patrick = Sandy = Squidward = 30
-
-print(Spongebob)
-print(Patrick)
-print(Sandy)
-print(Squidward)
+# Spongebob = Patrick = Sandy = Squidward = 30
+#
+# print(Spongebob)
+# print(Patrick)
+# print(Sandy)
+# print(Squidward)
