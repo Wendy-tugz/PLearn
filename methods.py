@@ -1,3 +1,5 @@
+import time
+
 name = "Bro Code"
 
 # print(len(name))
@@ -13,14 +15,38 @@ name = "Bro Code"
 
 # type casting = converting a data type of a value to another data type
 
-x = 1
-y = 2.0
-z = "3"
+# x = 1
+# y = 2.0
+# z = "3"
 
-# x = float(x)
-# y = float(y)
-# z = float(z)
+# x = str(x)
+# y = str(y)
+# z = str(z)
 
-print(x)
-print(y)
-print(z*3)
+# print("X is " + str(x))
+# print("Y is " + str(y))
+# print(z*3)
+
+# slicing
+# name = "Wendy Code"
+# first_name = name[:5]
+# last_name = name[6:]
+# reversed_name = name[::-1]
+#
+# print(first_name)
+# print(last_name)
+# print(reversed_name)
+
+# website = "http://google.com"
+# slice = slice(7,-4)
+# print(website[slice])
+
+# If statment
+
+# If
+for seconds in range(10, 0, -1):
+    print(seconds)
+    time.sleep(1)
+print("Happy New Year!")
+
+
