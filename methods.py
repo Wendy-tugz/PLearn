@@ -116,8 +116,8 @@ name = "Bro Code"
 #     print("Bro is here!")
 
 # Set
-utensils = {"fork", "spoon", "knife"}
-dishes = {"bowl", "plate", "cup", "knife"}
+# utensils = {"fork", "spoon", "knife"}
+# dishes = {"bowl", "plate", "cup", "knife"}
 
 # utensils.add("napkin")
 # utensils.remove("knife")
@@ -126,8 +126,27 @@ dishes = {"bowl", "plate", "cup", "knife"}
 # dinner_table = utensils.union(dishes)
 
 # print(dishes.difference(utensils))
-print(utensils.intersection(dishes))
+# print(utensils.intersection(dishes))
 
 # for x in dinner_table:
 #     print(x)
+
+# Dictionary
+capitals = {'USA':'WASHINGTON DC',
+            'India':'New Deli',
+            'China': 'Beijing',
+            'Russia': 'Moscow'}
+
+capitals.update({'Germany': 'Berlin'})
+capitals.update({'USA': 'Las Vegas'})
+capitals.pop('China')
+capitals.clear()
+# print(capitals['Uganda'])
+# print(capitals.get('Uganda'))
+# print(capitals.keys())
+# print(capitals.values())
+# print(capitals.items())
+
+for key, value in capitals.items():
+    print(key, value)
 
