@@ -83,14 +83,23 @@ name = "Bro Code"
 
 # LISTS
 
-food = ["pizza", "clothes", "phone", "hotdag"]
-food[0] = "sushi"
-print(food[0])
-food.append("icecream")
-food.remove("sushi")
-food.insert(0, "cake")
-food.sort()
-food.pop()
+# food = ["pizza", "clothes", "phone", "hotdag"]
+# food[0] = "sushi"
+# print(food[0])
+# food.append("icecream")
+# food.remove("sushi")
+# food.insert(0, "cake")
+# food.sort()
+# food.pop()
 # food.clear()
-for x in food:
-    print(x)
+# for x in food:
+#     print(x)
+
+# 2D lists
+drinks =["coffee", "soda", "tea", "boba"]
+dinner = ["pizza", "hamburger", "hotdog"]
+dessert = ["cake", "ice cream"]
+
+food = [drinks, dinner, dessert]
+print(food[0][0])
+
