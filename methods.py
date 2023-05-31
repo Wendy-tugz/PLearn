@@ -75,8 +75,22 @@ name = "Bro Code"
 #         continue
 #     print(i, end="")
 
-for i in range(1,21):
-    if i == 13:
-        pass
-    else:
-        print(i)
+# for i in range(1,21):
+#     if i == 13:
+#         pass
+#     else:
+#         print(i)
+
+# LISTS
+
+food = ["pizza", "clothes", "phone", "hotdag"]
+food[0] = "sushi"
+print(food[0])
+food.append("icecream")
+food.remove("sushi")
+food.insert(0, "cake")
+food.sort()
+food.pop()
+# food.clear()
+for x in food:
+    print(x)
