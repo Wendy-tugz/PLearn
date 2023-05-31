@@ -20,8 +20,18 @@
 # keyword arguments
 
 
-def hello(first, middle, last):
-    print("Hello " + first + " " + middle + " " + last)
+# def hello(first, middle, last):
+#     print("Hello " + first + " " + middle + " " + last)
+#
+#
+# hello(last="Code", middle="Angel", first="Wendy")
 
+# nested function calls = function calls inside other function calls
 
-hello(last="Code", middle="Angel", first="Wendy")
+# num = input("Enter a whole positive number: ")
+# num = float(num)
+# num = abs(num)
+# num = round(num)
+# print(num)
+
+print(round(abs(float(input("Enter a whole positive number: ")))))
