@@ -132,21 +132,33 @@ name = "Bro Code"
 #     print(x)
 
 # Dictionary
-capitals = {'USA':'WASHINGTON DC',
-            'India':'New Deli',
-            'China': 'Beijing',
-            'Russia': 'Moscow'}
-
-capitals.update({'Germany': 'Berlin'})
-capitals.update({'USA': 'Las Vegas'})
-capitals.pop('China')
-capitals.clear()
+# capitals = {'USA':'WASHINGTON DC',
+#             'India':'New Deli',
+#             'China': 'Beijing',
+#             'Russia': 'Moscow'}
+#
+# capitals.update({'Germany': 'Berlin'})
+# capitals.update({'USA': 'Las Vegas'})
+# capitals.pop('China')
+# capitals.clear()
 # print(capitals['Uganda'])
 # print(capitals.get('Uganda'))
 # print(capitals.keys())
 # print(capitals.values())
 # print(capitals.items())
 
-for key, value in capitals.items():
-    print(key, value)
+# for key, value in capitals.items():
+#     print(key, value)
 
+# index operator
+name = "wendy Tugahirwa!"
+
+# if(name[0].islower()):
+#     name = name.capitalize()
+
+first_name = name[:5].upper()
+last_name = name[6:].lower()
+last_char = name[-2]
+print(first_name)
+print(last_name)
+print(last_char)
