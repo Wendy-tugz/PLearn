@@ -96,10 +96,22 @@ name = "Bro Code"
 #     print(x)
 
 # 2D lists
-drinks =["coffee", "soda", "tea", "boba"]
-dinner = ["pizza", "hamburger", "hotdog"]
-dessert = ["cake", "ice cream"]
+# drinks =["coffee", "soda", "tea", "boba"]
+# dinner = ["pizza", "hamburger", "hotdog"]
+# dessert = ["cake", "ice cream"]
+#
+# food = [drinks, dinner, dessert]
+# print(food[0][3])
 
-food = [drinks, dinner, dessert]
-print(food[0][0])
+# Tuple
+student = ("Bro", 21, "male")
+
+print(student.count("Bro"))
+print(student.index("male"))
+
+for x in student:
+    print(x)
+
+if "Bro" in student:
+    print("Bro is here!")
 
