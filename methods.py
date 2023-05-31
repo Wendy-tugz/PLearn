@@ -104,14 +104,30 @@ name = "Bro Code"
 # print(food[0][3])
 
 # Tuple
-student = ("Bro", 21, "male")
+# student = ("Bro", 21, "male")
+#
+# print(student.count("Bro"))
+# print(student.index("male"))
+#
+# for x in student:
+#     print(x)
+#
+# if "Bro" in student:
+#     print("Bro is here!")
 
-print(student.count("Bro"))
-print(student.index("male"))
+# Set
+utensils = {"fork", "spoon", "knife"}
+dishes = {"bowl", "plate", "cup", "knife"}
 
-for x in student:
-    print(x)
+# utensils.add("napkin")
+# utensils.remove("knife")
+# utensils.clear()
+# dishes.update(utensils)
+# dinner_table = utensils.union(dishes)
 
-if "Bro" in student:
-    print("Bro is here!")
+# print(dishes.difference(utensils))
+print(utensils.intersection(dishes))
+
+# for x in dinner_table:
+#     print(x)
 
