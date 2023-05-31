@@ -34,4 +34,15 @@
 # num = round(num)
 # print(num)
 
-print(round(abs(float(input("Enter a whole positive number: ")))))
+# print(round(abs(float(input("Enter a whole positive number: ")))))
+
+# scope of varibles
+# Local, Enclosing, Global, Built-in variables
+
+name = "Bro"
+def display_name():
+    name = "Wendy"
+    print(name)
+
+display_name()
+print(name)
