@@ -39,10 +39,32 @@
 # scope of varibles
 # Local, Enclosing, Global, Built-in variables
 
-name = "Bro"
-def display_name():
-    name = "Wendy"
-    print(name)
+# name = "Bro"
+# def display_name():
+#     name = "Wendy"
+#     print(name)
+#
+# display_name()
+# print(name)
 
-display_name()
-print(name)
+# args
+# def add(*stuff):
+#     sum = 0
+#     stuff = list(stuff)
+#     stuff[0] = 0
+#     for i in stuff:
+#         sum += i
+#     return sum
+#
+#
+# print(add(1, 2, 3, 4, 5))
+
+#kwargs = parameter will pack all arguments into a dictionary
+
+def hello(**kwargs):
+    print("Hello " + kwargs['first'] + " " + kwargs['last'])
+
+hello(first="Wendy", middle ="Angel", last="Code")
+
+
+
