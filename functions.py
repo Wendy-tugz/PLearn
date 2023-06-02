@@ -82,11 +82,20 @@
 # text = "The {} jumped over the {}"
 # print(text.format(animal, item))
 
-name = "Wendy"
+# name = "Wendy"
+#
+# print("Hello my name is {}".format(name))
+# print("Hello my name is {:10} Nice to meet you".format(name))
+# print("Hello my name is {:<10} Nice to meet you".format(name))
+# print("Hello my name is {:>10} Nice to meet you".format(name))
+# print("Hello my name is {:^10} Nice to meet you".format(name))
 
-print("Hello my name is {}".format(name))
-print("Hello my name is {:10} Nice to meet you".format(name))
-print("Hello my name is {:<10} Nice to meet you".format(name))
-print("Hello my name is {:>10} Nice to meet you".format(name))
-print("Hello my name is {:^10} Nice to meet you".format(name))
+number = 1000
+
+print("The number pi is {:.3f}".format(number))
+print("The number is {:,}".format(number))
+print("The number is {:b}".format(number))
+print("The number is {:o}".format(number))
+print("The number is {:x}".format(number))
+print("The number is {:E}".format(number))
 
