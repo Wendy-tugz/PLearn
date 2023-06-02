@@ -61,13 +61,19 @@
 
 #kwargs = parameter will pack all arguments into a dictionary
 
-def hello(**kwargs):
-    # print("Hello " + kwargs['first'] + " " + kwargs['last'])
-    print("Hello", end=" ")
-    for key, value in kwargs.items():
-        print(value, end=" ")
+# def hello(**kwargs):
+#     # print("Hello " + kwargs['first'] + " " + kwargs['last'])
+#     print("Hello", end=" ")
+#     for key, value in kwargs.items():
+#         print(value, end=" ")
+#
+# hello(title ="Ms.", first="Wendy", middle ="Angel", last="Code")
 
-hello(title ="Ms.", first="Wendy", middle ="Angel", last="Code")
+# str.format() method = optional method that gives users more control when displaying output
 
+animal = "cow"
+item = "moon"
 
+# print("The " + animal + " " + "jumped over the " + item)
+print("The {} jumped over the {}".format(animal, item))
 
