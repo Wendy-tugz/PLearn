@@ -28,6 +28,22 @@
 # copy a file
 # copyfile(), copy() copy2()
 
-import shutil
+# import shutil
+#
+# shutil.copyfile('test.txt', 'copy.txt') #scr, dst
 
-shutil.copyfile('test.txt', 'copy.txt') #scr, dst
+# move files
+
+import os
+source = "mover.txt"
+destination = "/Users/wendy/Documents/mover.txt"
+
+try:
+    if os.path.exists(destination):
+        print("There is already a file there.")
+    else:
+        os.replace(source, destination)
+        print(source + " was moved")
+
+except FileNotFoundError:
+    print(source + "was not found")
