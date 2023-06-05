@@ -21,6 +21,13 @@
 
 # write a file
 
-text = "Have a nice day! See yah!"
-with open('test.txt', 'a') as file:
-    file.write(text)
+# text = "Have a nice day! See yah!"
+# with open('test.txt', 'a') as file:
+#     file.write(text)
+
+# copy a file
+# copyfile(), copy() copy2()
+
+import shutil
+
+shutil.copyfile('test.txt', 'copy.txt') #scr, dst
