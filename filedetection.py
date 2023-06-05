@@ -1,12 +1,19 @@
-import os
+# import os
+#
+# path = "/Users/wendy/Documents/WEBMASTERS/PYTHON"
+#
+# if os.path.exists(path):
+#     print("That location exits.")
+#     if os.path.isfile(path):
+#         print("That is a file.")
+#     elif os.path.isdir(path):
+#         print("That is a directory.")
+# else:
+#     print("That location doesn't exist.")
 
-path = "/Users/wendy/Documents/WEBMASTERS/PYTHON"
+# Read a file
 
-if os.path.exists(path):
-    print("That location exits.")
-    if os.path.isfile(path):
-        print("That is a file.")
-    elif os.path.isdir(path):
-        print("That is a directory.")
-else:
-    print("That location doesn't exist.")
+with open('test.txt') as file:
+    print(file.read())
+
+print(file.closed)
