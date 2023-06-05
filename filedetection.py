@@ -13,8 +13,14 @@
 
 # Read a file
 
-try:
-    with open('test.tx') as file:
-        print(file.read())
-except FileNotFoundError:
-    print("File not found")
+# try:
+#     with open('test.tx') as file:
+#         print(file.read())
+# except FileNotFoundError:
+#     print("File not found")
+
+# write a file
+
+text = "Have a nice day! See yah!"
+with open('test.txt', 'a') as file:
+    file.write(text)
