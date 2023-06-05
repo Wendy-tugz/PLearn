@@ -13,7 +13,8 @@
 
 # Read a file
 
-with open('test.txt') as file:
-    print(file.read())
-
-print(file.closed)
+try:
+    with open('test.tx') as file:
+        print(file.read())
+except FileNotFoundError:
+    print("File not found")
