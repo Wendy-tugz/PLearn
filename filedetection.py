@@ -34,16 +34,32 @@
 
 # move files
 
+# import os
+# source = "mover.txt"
+# destination = "/Users/wendy/Documents/mover.txt"
+#
+# try:
+#     if os.path.exists(destination):
+#         print("There is already a file there.")
+#     else:
+#         os.replace(source, destination)
+#         print(source + " was moved")
+#
+# except FileNotFoundError:
+#     print(source + "was not found")
+
+# delete a file
+
 import os
-source = "mover.txt"
-destination = "/Users/wendy/Documents/mover.txt"
+
+path = "empty_folder"
 
 try:
-    if os.path.exists(destination):
-        print("There is already a file there.")
-    else:
-        os.replace(source, destination)
-        print(source + " was moved")
-
+    # os.remove(path)
+    os.rmdir(path)
 except FileNotFoundError:
-    print(source + "was not found")
+    print("File was not found")
+except PermissionError:
+    print("You do not have permission to delete that")
+else:
+    print(path + " was deleted")
