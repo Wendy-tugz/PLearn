@@ -1,6 +1,16 @@
 #--------------------------
 def new_game():
-    pass
+    guesses =[]
+    correct_guesses = 0
+    question_num = 1
+
+    for key in questions:
+        print("--------------------------")
+        print(key)
+        for i in options[question_num - 1]:
+            print(i)
+
+        question_num += 1
 #--------------------------
 
 
@@ -30,3 +40,5 @@ options = [["A. Guido van Rossum", "B. Elon Musk", "C. Bill Gates", "D. MArk Zuc
            ["A. 1989", "B. 1991", "C. 2000", "D. 2016"],
            ["A. Lonely", "B. Smosh", "C. SNL", "D. Monty"],
            ["A. True", "B. False", "C. Sometimes", "D. What's Earrth?"]]    #2D list
+
+new_game()
