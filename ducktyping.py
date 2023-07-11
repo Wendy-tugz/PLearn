@@ -29,6 +29,8 @@ duck = Duck()
 chicken = Chicken()
 person = Person()
 
-person.catch(duck)
+person.catch(chicken)
+
+
 
 
