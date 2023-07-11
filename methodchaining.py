@@ -21,4 +21,9 @@ class Car:
 
 car = Car()
 
-car.turn_on().drive()
+# car.turn_on().drive()
+# car.brake().turn_off()
+car.turn_on()\
+    .drive()\
+    .brake()\
+    .turn_off()
