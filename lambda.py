@@ -6,5 +6,11 @@
 #     return x * 2
 # print(double(5))
 
+
 double = lambda x: x * 2
-print(double(5))
+multiply = lambda x, y: x * y
+add = lambda x, y, z: x + y + z
+# print(double(5))
+# print(multiply(5, 6))
+print(add(5, 6, 7))
+
