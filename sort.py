@@ -1,6 +1,7 @@
 #sort() method = used with lists
 #sort() function = used with iterables
 
+
 #sort method
 # students = ["Squid", "Sandy", "Patrick", "Spongebob", "Karbs"]
 #
@@ -17,6 +18,7 @@
 # for i in sorted_students:
 #     print(i)
 
+
 #tuple
 students = [("Squid", "F", 60),
             ("Sandy", "A", 33),
@@ -24,8 +26,11 @@ students = [("Squid", "F", 60),
             ("Spongebob", "B", 20),
             ("Karbs", "C", 78)]
 
-grade = lambda grades: grades[1]
-students.sort(key=grade, reverse=True)
+# grade = lambda grades: grades[1]
+# students.sort(key=grade, reverse=True)
+
+age = lambda ages: ages[2]
+students.sort(key=age)
 
 for i in students:
     print(i)
