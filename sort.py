@@ -11,8 +11,21 @@
 
 
 #sort function
-students = ("Squid", "Sandy", "Patrick", "Spongebob", "Karbs")
-sorted_students = sorted(students, reverse=True)
+# students = ("Squid", "Sandy", "Patrick", "Spongebob", "Karbs")
+# sorted_students = sorted(students, reverse=True)
+#
+# for i in sorted_students:
+#     print(i)
 
-for i in sorted_students:
+#tuple
+students = [("Squid", "F", 60),
+            ("Sandy", "A", 33),
+            ("Patrick", "D", 36),
+            ("Spongebob", "B", 20),
+            ("Karbs", "C", 78)]
+
+grade = lambda grades: grades[1]
+students.sort(key=grade, reverse=True)
+
+for i in students:
     print(i)
